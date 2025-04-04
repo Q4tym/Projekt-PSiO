@@ -1,2 +1,5 @@
 --------------------------POMYSŁY--------------------------
 1. Systemy ruchu drogowego
+  -Kod na podstawie danych z arduino dostosowywuje np. światła drogowe
+  -Interfejs użytkownika pozwala na wizualizacje "na żywo" aktualnego ruchu
+  - W interfejsie użtykownik może modyfikować takie dane jak długość zielonego światła dla danego pasa
