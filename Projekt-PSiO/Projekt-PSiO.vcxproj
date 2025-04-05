@@ -123,7 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Klasy.cpp" />
-    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Application.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Klasy.h" />
