@@ -1,6 +1,5 @@
 #pragma once
 
-
 namespace ProjektPSiO {
 
 	using namespace System;
@@ -11,12 +10,12 @@ namespace ProjektPSiO {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Podsumowanie informacji o MyForm
+	/// Podsumowanie informacji o MyForm1
 	/// </summary>
-	public ref class MyForm : public System::Windows::Forms::Form
+	public ref class MyForm1 : public System::Windows::Forms::Form
 	{
 	public:
-		MyForm(void)
+		MyForm1(void)
 		{
 			InitializeComponent();
 			//
@@ -28,17 +27,13 @@ namespace ProjektPSiO {
 		/// <summary>
 		/// Wyczyœæ wszystkie u¿ywane zasoby.
 		/// </summary>
-		~MyForm()
+		~MyForm1()
 		{
 			if (components)
 			{
 				delete components;
 			}
 		}
-
-	protected:
-
-	protected:
 
 	private:
 		/// <summary>
@@ -53,23 +48,18 @@ namespace ProjektPSiO {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
 			this->SuspendLayout();
 			// 
-			// MyForm
+			// MyForm1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->BackColor = System::Drawing::SystemColors::ControlDark;
-			this->ClientSize = System::Drawing::Size(1716, 891);
-			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
-			this->Name = L"MyForm";
-			this->Text = L"E-sortownia v1.0";
+			this->ClientSize = System::Drawing::Size(642, 635);
+			this->Name = L"MyForm1";
+			this->Text = L"MyForm1";
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
-
 	};
 }
-

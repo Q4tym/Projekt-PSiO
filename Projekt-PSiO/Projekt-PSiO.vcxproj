@@ -125,14 +125,21 @@
     <ClCompile Include="Klasy.cpp" />
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Funkcje.cpp" />
+    <ClCompile Include="Formularz_wysylkowy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Klasy.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Formularz_wysylkowy.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Formularz_wysylkowy.resx">
+      <DependentUpon>Formularz_wysylkowy.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>
