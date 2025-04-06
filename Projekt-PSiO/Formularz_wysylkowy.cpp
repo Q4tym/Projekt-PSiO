@@ -1,2 +1,2 @@
-#include "MyForm1.h"
+#include "Formularz_wysylkowy.h"
 

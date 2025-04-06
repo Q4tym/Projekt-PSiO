@@ -63,7 +63,7 @@ class Przesylka : public Odbiorca
 public:
 	std::string numer_przesylki;
 	std::string wymiar;
-	virtual void Przesylka() = 0; 
+	virtual void dane() = 0; 
 };
 
 class  Duza_Paczka : public Przesylka
@@ -73,24 +73,15 @@ public:
 
 };
 
-
-
-
-
-
-	
-
-
-
-
-
-class MalaPaczka :public Przesylka
+class Srednia_Paczka : public Przesylka
 {
 public:
 
 };
 
-class Srednia Paczka :public Przesylka
+class MalaPaczka : public Przesylka
 {
+public:
 
 };
+
