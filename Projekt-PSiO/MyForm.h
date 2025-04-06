@@ -1,4 +1,5 @@
 #pragma once
+#include "Formularz_wysylkowy.h"
 
 
 namespace ProjektPSiO {
@@ -35,6 +36,8 @@ namespace ProjektPSiO {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::Button^ button1;
+	protected:
 
 	protected:
 
@@ -54,7 +57,18 @@ namespace ProjektPSiO {
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(493, 223);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(145, 76);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"Otworz formularz przesylkowy";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// MyForm
 			// 
@@ -62,6 +76,7 @@ namespace ProjektPSiO {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::SystemColors::ControlDark;
 			this->ClientSize = System::Drawing::Size(1716, 891);
+			this->Controls->Add(this->button1);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"MyForm";
 			this->Text = L"E-sortownia v1.0";
@@ -70,6 +85,12 @@ namespace ProjektPSiO {
 		}
 #pragma endregion
 
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		// Tworzenie obiektu klasy MyForm1
+		ProjektPSiO::MyForm1^ form1 = gcnew ProjektPSiO::MyForm1();
+		// Uruchomienie aplikacji
+		System::Windows::Forms::Application::Run(form1);
+	}
 	};
 }
 
