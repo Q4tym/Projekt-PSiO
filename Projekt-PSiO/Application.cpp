@@ -1,5 +1,5 @@
 #include "MyForm.h"
-#include "Klasy.h"
+#include "Funkcje.cpp"
 //using namespace System;
 //using namespace System::Windows::Forms;
 

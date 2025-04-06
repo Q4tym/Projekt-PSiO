@@ -124,6 +124,7 @@
   <ItemGroup>
     <ClCompile Include="Klasy.cpp" />
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Funkcje.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Klasy.h" />

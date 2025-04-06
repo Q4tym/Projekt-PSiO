@@ -1,7 +1,7 @@
 #include <iostream>
 class Osoba
 {
-protected:
+public:
 	std::string imie;
 	std::string nazwisko;
 	std::string adres_mailowy;
@@ -9,7 +9,7 @@ protected:
 
 class Adres
 {
-protected:
+public:
 	int numer_budynku;
 	std::string ulica;
 	std::string miasto;
