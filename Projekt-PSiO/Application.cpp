@@ -1,22 +1,24 @@
 #include "MyForm.h"
 #include "Funkcje.cpp"
 
-//using namespace System;
-//using namespace System::Windows::Forms;
+using namespace System;
+using namespace System::Windows::Forms;
 
-
-[System::STAThread]
-void Main(array<System::String^>^ args)
-
+[STAThread]
+int main(array<String^>^ args)
 {
-	System::Windows::Forms::Application::EnableVisualStyles();
-	System::Windows::Forms::Application::SetCompatibleTextRenderingDefault(false);
-	ProjektPSiO::MyForm form;
-	System::Windows::Forms::Application::Run(% form);
+    // Inicjalizacja aplikacji
+    Application::EnableVisualStyles();
+    Application::SetCompatibleTextRenderingDefault(false);
+
+    // Tworzenie i uruchamianie g³ównego formularza
+    ProjektPSiO::MyForm^ form = gcnew ProjektPSiO::MyForm();
+    Application::Run(form);
+
+    return 0;
 }
 
-
-int main()
+/*int main()
 {
 	// Tworzenie obiektu klasy MyForm
 	ProjektPSiO::MyForm^ form = gcnew ProjektPSiO::MyForm();
@@ -24,3 +26,4 @@ int main()
 	System::Windows::Forms::Application::Run(form);
 
 }
+*/

@@ -89,7 +89,7 @@ namespace ProjektPSiO {
 		// Tworzenie obiektu klasy MyForm1
 		ProjektPSiO::MyForm1^ form1 = gcnew ProjektPSiO::MyForm1();
 		// Uruchomienie aplikacji
-		System::Windows::Forms::Application::Run(form1);
+		form1->Show();
 	}
 	};
 }

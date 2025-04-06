@@ -24,6 +24,6 @@ std::istream& operator>>(std::istream& cin, Nadawca& nadawca)
 	std::cout << "Podaj kraj: ";
 	cin >> nadawca.kraj;
 	std::cout << "Podaj numer nadawczy: ";
-	cin >> nadawca.numer_nadawczy;
+//	cin >> nadawca.numer_nadawczy;
 	return cin;
 }
