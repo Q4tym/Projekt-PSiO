@@ -1,8 +1,8 @@
 #include "MyForm.h"
 #include "Formularz_wysylkowy.h"
 
-[STAThread]
-int main()
+[System::STAThread]
+int Main()
 {
 	// Inicjalizacja aplikacji
 	System::Windows::Forms::Application::EnableVisualStyles();
@@ -11,6 +11,8 @@ int main()
 	// Tworzenie i uruchamianie g³ównego formularza
 	ProjektPSiO::MyForm^ form = gcnew ProjektPSiO::MyForm();
 	System::Windows::Forms::Application::Run(form);
+
+	return 0;
 }
 
 
