@@ -54,7 +54,7 @@ namespace ProjektPSiO {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(642, 635);
+			this->ClientSize = System::Drawing::Size(784, 933);
 			this->Name = L"MyForm1";
 			this->Text = L"MyForm1";
 			this->ResumeLayout(false);
