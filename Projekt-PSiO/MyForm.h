@@ -1,6 +1,52 @@
 #pragma once
 #include "Formularz_wysylkowy.h"
 
+namespace ProjektPSiO {
+
+	using namespace System;
+	using namespace System::ComponentModel;
+	using namespace System::Collections;
+	using namespace System::Windows::Forms;
+	using namespace System::Data;
+	using namespace System::Drawing;
+
+	/// <summary>
+	/// Podsumowanie informacji o MyForm
+	/// </summary>
+	public ref class MyForm : public System::Windows::Forms::Form
+	{
+	public:
+		MyForm(void);
+		~MyForm();
+
+	protected:
+
+	private:
+		System::Windows::Forms::Button^ button1;
+		System::Windows::Forms::Button^ button2;
+		System::Windows::Forms::MenuStrip^ menuStrip1;
+		System::ComponentModel::Container^ components;
+
+		void InitializeComponent(void);
+
+#pragma region Windows Form Designer generated code
+		// Metoda wymagana do obs³ugi projektanta - nie nale¿y modyfikowaæ
+		// jej zawartoœci w edytorze kodu.
+#pragma endregion
+
+	private:
+		System::Void button1_Click(System::Object^ sender, System::EventArgs^ e);
+		System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e);
+		System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e);
+		System::Void button2_Click(System::Object^ sender, System::EventArgs^ e);
+	};
+}
+
+
+/*
+#pragma once
+#include "Formularz_wysylkowy.h"
+
 
 namespace ProjektPSiO {
 
@@ -128,4 +174,5 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 }
 };
 }
+*/
 
