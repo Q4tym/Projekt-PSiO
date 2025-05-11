@@ -1,0 +1,16 @@
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\bin\Debug\net8.0-windows\test.exe
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\bin\Debug\net8.0-windows\test.deps.json
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\bin\Debug\net8.0-windows\test.runtimeconfig.json
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\bin\Debug\net8.0-windows\test.dll
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\bin\Debug\net8.0-windows\test.pdb
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.Form1.resources
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.csproj.GenerateResource.cache
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.AssemblyInfoInputs.cache
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.AssemblyInfo.cs
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.csproj.CoreCompileInputs.cache
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.dll
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\refint\test.dll
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.pdb
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.genruntimeconfig.cache
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\ref\test.dll
