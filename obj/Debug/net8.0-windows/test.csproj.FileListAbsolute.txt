@@ -14,3 +14,4 @@ C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\refint\test
 C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.pdb
 C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.genruntimeconfig.cache
 C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\ref\test.dll
+C:\Users\Kamil.DESKTOP-6UDN7UD\Desktop\test\obj\Debug\net8.0-windows\test.sourcelink.json
